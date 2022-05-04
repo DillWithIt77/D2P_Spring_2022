@@ -5,8 +5,8 @@ import pandas as pd
 
 # PREPROCESSING
 # load and convert to numpy array
-link = "https://raw.githubusercontent.com/DillWithIt77/D2P_Spring_2022/main/edge_data_updated.csv"
-data = pd.read_csv("https://raw.githubusercontent.com/DillWithIt77/D2P_Spring_2022/main/edge_data_updated.csv")
+link = "https://raw.githubusercontent.com/DillWithIt77/D2P_Spring_2022/main/Data%20Cleaning%20and%20Plotting/edge_data_updated.csv"
+data = pd.read_csv(link)
 data = data.to_numpy()
 
 # chop off row indices
